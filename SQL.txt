@@ -30,3 +30,95 @@ Un valor NULL representa la ausencia de un valor en una columna de una tabla. Es
     Por ejemplo, si una columna de la tabla de Impuestos, algunos de esos valores pueden contener 0 (cero), 
     mientras que otros pueden no tener ningún valor de impuesto asignado aún, en cuyo caso la columna tendría el valor NULL.
 ‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗
+
+Tipos de Datos
+
+En SQL, un tipo de dato se refiere al formato del valor que puede almacenarse en un campo 
+de una tabla. Los tipos de datos en SQL definen las características y las restricciones de los 
+valores que pueden almacenarse en el mismo, como el rango de valores permitidos, el 
+tamaño máximo o el formato.
+
+Bit = 0 ó 1  
+Byte = 8 bits  
+Kilobyte = 1024 bytes  
+Megabyte = 1024 kilobytes  
+Gigabyte = 1024 megabytes  
+Terabyte = 1024 gigabytes  
+Petabyte = 1024 terabytes 
+
+TIPOS DE DATOS MAS UTILIZADOS
+
+• Numéricos  
+Enteros INT, TINYINT, BIT 
+Decimales MONEY, DECIMAL  
+ 
+BIT 1 byte  
+0 ó 1  
+True o False  
+  
+TINYINT 1 byte  
+0 a 255  
+  
+SMALLINT 2 bytes  
+DESDE -32,768 HASTA 32,767   
+  
+INT 4 bytes  
+DESDE -2,147,483,648 HASTA 2,147,483,647 
+  
+BIGINT 8 bytes  
+DESDE -9,223,372,036,854,775,808) HASTA 9,223,372,036,854,775,807 
+  
+ 
+MONEY 8 bytes  
+DESDE -922,337,203,685,477.5808 HASTA 922,337,203,685,477.5807   
+  
+DECIMAL (10,2) Precisión y Escala  
+1 a 9: 5 bytes  
+10 a 19: 9 bytes  
+20 a 28: 13 bytes  
+29 a 38: 17 bytes
+ 
+• Texto 
+CHAR, VARCHAR 
+  
+CHAR 1 byte por caracter 
+DESDE 1 HASTA 8000  
+  
+VARCHAR 1 byte por caracter variable 
+DESDE 1 HASTA 8000   
+  
+NCHAR 2 bytes por caracter 
+DESDE 1 HASTA 4000  
+  
+NVARCHAR 2 bytes por caracter variable 
+DESDE 1 HASTA 4000  
+  
+BINARY 1 byte por valor  
+DESDE 1 HASTA 8000  
+  
+VARBINARY 1 byte por valor variable  
+DESDE 1 HASTA 8000 
+  
+• Fecha y Hora  
+DATETIME
+
+DATETIME 8 bytes  
+YYYY-MM-DD hh:mm:ss:nnn  
+01/01/1753 HASTA 31/12/9999  
+00:00:00 HASTA 23:59:59.997   
+ 
+DATE 3 bytes  
+YYYY-MM-DD   
+DESDE 01/01/0001 HASTA 31/12/9999  
+  
+TIME 5 bytes  
+hh:mm:ss:nnnnnnn  
+DESDE 00:00:00.0000000 HASTA 23:59:59.9999999   
+  
+SMALLDATETIME 4 bytes  
+YYYY-MM-DD hh:mm:ss  
+01/01/1900 HASTA 06/06/2079  
+00:00:00 HASTA 23:59:59  
+
+‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗
+
