@@ -1,0 +1,69 @@
+¦|•‣‖‗
+
+¿Que es una Base de Datos?
+
+Una base de datos es una recopilación de datos sistemática y almacenada electrónicamente. 
+Puede contener cualquier tipo de datos, incluidos palabras, números, imágenes, vídeos y archivos. 
+Puede usar un software denominado sistema de administración de bases de datos (DBMS) para almacenar, recuperar y editar datos.
+‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗
+
+Características principales de una base de datos
+
+• Los datos están ordenados: La información contenida en una base de datos es estructurada y organizada de acuerdo a ciertos criterios que depende generalmente del tipo de base de datos.
+
+• Trabaja junto a un gestor de base de datos: Para administrar una base de datos, se usa lo que se conoce como sistema de gestión de base de datos, una herramienta que permite almacenar, estructurar, modificar, acceder y consultar información.
+
+• Permite almacenar grandes volúmenes de datos: Un banco de datos tiene la capacidad de guardar una gran cantidad de información.
+
+• La información contenida puede consultarse rápidamente: Los datos almacenados pueden ser consultados con gran rapidez, independientemente de la dificultad de la consulta. Y aunque pueda haber bases de datos con lentitud en sus consultas, estos pueden ser optimizados para mejorar sus tiempos de respuestas.
+
+• Es seguro, si se toman las medidas adecuadas: Una base de datos puede ser un sistema seguro siempre y cuando se apliquen las técnicas correctas para garantizar su solidez.
+‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗
+
+¿Como se compone una base de datos?
+
+En prácticamente cualquier base de datos actual existen varios elementos esenciales: tablas, registro, consultas, macros, informes y formularios. 
+Todos son indispensables y necesarios: Las tablas permitirán almacenar los datos. 
+Con las consultas podremos acceder a los datos almacenados, ordenarlos y filtrarlos por diferentes criterios.
+
+• Tablas: Para guardar datos.
+
+• Registros:
+
+• Consultas: Para acceder a la información contenida en una base de datos. Con las consultas se pueden modificar, agregar, eliminar y mostrar datos.
+
+• Informes: Para presentar información contenida en una base de datos. Esta información se muestra de una forma en concreto y en un determinado formato para que pueda ser imprimida.
+
+• Formularios: Para ingresar datos.
+
+• Macros: Para crear instrucciones y ejecutar funciones.
+‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗
+
+Tipos de base de datos
+
+• Base de datos estática: Es de sólo lectura. Es decir, es la base que no permite que sus datos sean modificados o eliminados una vez que son almacenados.
+
+• Base de datos dinámica: Es la que permite que sus datos sean modificados o eliminados una vez que son almacenados.
+
+• Base de datos relacional: Es la colección de datos que es organizada utilizando tablas descriptivas. Estas basen utilizan SQL, un lenguaje de consulta estructurada para gestionar y consultar datos.
+
+• Base de datos no relacional: Es la colección que se diferencia de la base relacional por no utilizar el lenguaje SQL como herramienta principal, sino que da uso del lenguaje denominado NoSQL. Además, tampoco utilizan tablas para estructurar su información.
+
+• Base de datos bibliográfica: Es la que guarda metadatos bibliográficos de materiales como libros, artículos, periódicos, revistas, tesis, patentes y conferencias. Es decir, son datos que brindan información bibliográfica, pero no el contenido en sí (la información completa). Ejemplo de ello sería nombres de autores, títulos, resúmenes, índices o palabras claves. Estas bases de datos pueden ser en formato físico o digital.
+
+• Base de datos de texto completo: Es la que almacena el contenido completo de libros, artículos, diarios, disertaciones, periódicos, revistas, tesis y otros documentos escritos.
+
+• Base de datos orientada a objetos: Es aquella base en la cual los datos son representados como objetos.
+
+• Base de datos jerárquica: Es la que almacena información de forma jerárquica. Es decir, es la colección que comprende una arquitectura del tipo arbórea, en la cual un nodo se ramifica en otros nodos, y estos se dividen en otros.
+
+• Base de datos de red: Es aquella en la que los datos contenidos están conectados entre sí a través de ciertos enlaces.
+
+• Base de datos transaccional: Es la que permite llevar a cabo transacciones cortas de carácter digital a gran velocidad.
+
+• Base de datos multidimensional: Al igual que la base de datos relacional, este tipo de base almacena la información utilizando tablas, la diferencia se encuentra en su forma estructural, que es organizada en una especie de cubo de información.
+
+• Base de datos deductiva: Es el banco que permite establecer conclusiones partiendo de ciertas premisas.
+
+• Base de datos documental: Es la base que ordena la información de forma semiestructurada utilizando archivos como JSON y XML.
+‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗
