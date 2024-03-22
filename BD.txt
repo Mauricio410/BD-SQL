@@ -82,3 +82,30 @@ Tipos de base de datos
 
 • Base de datos documental: Es la base que ordena la información de forma semiestructurada utilizando archivos como JSON y XML.
 ‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗
+
+Normalización de la Base de Datos
+
+La normalización de bases de datos es un proceso que consiste en designar y 
+    aplicar una serie de reglas a las relaciones obtenidas tras el paso del modelo entidad-relación al modelo relacional. 
+
+Grados de normalización: 
+    Existen básicamente tres niveles de normalización: Primera Forma Normal (1NF), Segunda Forma Normal (2NF) y Tercera Forma Normal (3NF). 
+    Cada una de estas formas tiene sus propias reglas. Cuando una base de datos se conforma a un nivel, se considera normalizada a esa forma de normalización.
+
+• Primera Forma Normal (1NF): Se dice que una Tabla está en Primera Forma Normal si y sólo si todos sus Campos (Atributos)
+    contienen valores atómicos. Esto quiere decir que cada Atributo de la Tabla deberá tener un único valor
+    para una ocurrencia de la Entidad. No se permitirán grupos repetitivos.
+
+• Segunda Forma Normal (2NF): Una Tabla está en Segunda Forma Normal si y sólo si está en 1FN y todos los Atributos no clave
+    dependen por completo de la clave primaria.
+
+• Tercera Forma Normal (3NF): Una Tabla está en Tercera Forma Normal si y sólo si está en 2FN y los atributos no clave son
+    independientes entre sí. Esto quiere decir que los valores de los atributos dependen sólo de la clave
+    primaria y no dependen de otro Atributo no clave. El valor del Atributo no debe depender del valor de
+    otro Atributo no clave.
+
+
+
+
+
+‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗
