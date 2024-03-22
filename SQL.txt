@@ -1,0 +1,32 @@
+¿Que es una Primary Key?
+Una clave primaria es una columna (o combinación de columnas) especial de una tabla de base de datos relacional 
+    designada para identificar de forma exclusiva cada registro de la tabla. 
+    Una clave primaria se utiliza como identificador único para analizar rápidamente los datos dentro de la tabla.
+
+
+• La clave primaria o primary key, identifica de manera univoca (unica) a cada registro de una tabla.
+• El valor que contiene la columna definida como primary key, debe ser unico.
+• El valor debe ser NOT NULL (no permitirán valores nulos).
+• Una tabla puede tener mas de un campo PK, a la que llamaremos CLAVE COMPUESTA
+• Sea Simple o Compuesta, cada tabla solo podra tener una clave primaria (Primary Key)
+‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗
+
+¿Que es una Foreign Key?
+Una Foreign Key o clave foránea o llave foránea o clave ajena es una clave de base de datos que se utiliza para vincular dos tablas de la base de datos. 
+    Es un campo (o colección de campos o columnas) en una tabla, que se refiere a la PRIMARY KEY en otra tabla. 
+    La restricción FOREIGN KEY se utiliza para evitar acciones que destruyan enlaces entre tablas.
+
+• La clave foranea o foreign key, debe ser del mismo tipo de dato que su campo relacionado.
+• El valor del campo deifinido como foreign key puede ser NULL
+• Una tabla puede tener mas de un campo foreign key
+
+‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗
+
+¿Que es un valor NULL?
+
+Un valor NULL representa la ausencia de un valor en una columna de una tabla. Esto indica que no se ha asignado ningún valor en esa columna determinada.
+    Los valores NULL son diferentes de los valores en blanco o los valores numéricos como el 0 (cero), 
+    ya que estos últimos son valores válidos que se pueden asignar a una columna. 
+    Por ejemplo, si una columna de la tabla de Impuestos, algunos de esos valores pueden contener 0 (cero), 
+    mientras que otros pueden no tener ningún valor de impuesto asignado aún, en cuyo caso la columna tendría el valor NULL.
+‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗

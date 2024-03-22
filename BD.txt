@@ -1,5 +1,3 @@
-¦|•‣‖‗
-
 ¿Que es una Base de Datos?
 
 Una base de datos es una recopilación de datos sistemática y almacenada electrónicamente. 
@@ -31,9 +29,13 @@ En prácticamente cualquier base de datos actual existen varios elementos esenci
 Todos son indispensables y necesarios: Las tablas permitirán almacenar los datos. 
 Con las consultas podremos acceder a los datos almacenados, ordenarlos y filtrarlos por diferentes criterios.
 
-• Tablas: Para guardar datos.
+• Tablas: Se refiere al tipo de modelado de datos donde se guardan los datos recogidos por un programa.
 
-• Registros:
+• Campos (Columnas): Son los componentes que proporcionan la estructura a una tabla.
+    Los campos tienen diferentes tipos de datos, como texto, números, fechas e hipervínculos.
+
+• Registros (Filas): Es un conjunto de campos que contienen los datos que pertenecen a una misma entidad.
+    Los registros contiene datos específicos, como información acerca de un determinado empleado o un producto.
 
 • Consultas: Para acceder a la información contenida en una base de datos. Con las consultas se pueden modificar, agregar, eliminar y mostrar datos.
 
