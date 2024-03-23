@@ -67,8 +67,7 @@ DESDE -2,147,483,648 HASTA 2,147,483,647
   
 BIGINT 8 bytes  
 DESDE -9,223,372,036,854,775,808) HASTA 9,223,372,036,854,775,807 
-  
- 
+
 MONEY 8 bytes  
 DESDE -922,337,203,685,477.5808 HASTA 922,337,203,685,477.5807   
   
@@ -77,7 +76,9 @@ DECIMAL (10,2) Precisión y Escala
 10 a 19: 9 bytes  
 20 a 28: 13 bytes  
 29 a 38: 17 bytes
- 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
 • Texto 
 CHAR, VARCHAR 
   
@@ -99,6 +100,8 @@ DESDE 1 HASTA 8000
 VARBINARY 1 byte por valor variable  
 DESDE 1 HASTA 8000 
   
+-----------------------------------------------------------------------------------------------------------------------------
+
 • Fecha y Hora  
 DATETIME
 
@@ -122,3 +125,15 @@ YYYY-MM-DD hh:mm:ss
 
 ‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗
 
+¿Qué son los archivos MDF y LDF?
+
+Archivo MDF (Master Data File): El archivo MDF es el principal archivo de datos de una base de datos en SQL Server. 
+Contiene las tablas, índices, procedimientos almacenados y otros objetos de la base de datos.
+
+Archivo LDF (Log Data File): El archivo LDF es el archivo de registro de transacciones de una base de datos en SQL Server. 
+Registra todas las transacciones y cambios realizados en la base de datos, lo que permite la recuperación y 
+la restauración de la misma en caso de fallos o pérdida de datos.
+
+
+
+‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗
