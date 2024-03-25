@@ -277,6 +277,11 @@ _______
 
 ## Comandos SQL para refinar las consultas
 
+### Como filtar o buscar determinados registros con determinados valores en ciertos campos
+```
+SELECT * FROM Customers WHERE Country = 'EEUU';
+```
+
 ### Elimina los resultados duplicados
 Elimina los duplicados del conjunto de resultados
 ```
@@ -287,6 +292,9 @@ SELECT DISTINCT Country FROM Customers;
 Restringe el conjunto de resultados a los primeros resultados
 ```
 SELECT * FROM Customers LIMIT 5;
+```
+```
+SELECT TOP 5 * FROM Customers;
 ```
 
 ### Agrupa resultados con caracteristicas comunes
@@ -306,13 +314,81 @@ Utiliza el orden ascendente (“ascending”)
 ```
 SELECT DISTINCT Country FROM Customers SORT BY Country ASC;
 ```
+```
+SELECT DISTINCT Country FROM Customers ORDER BY Country ASC;
+```
 
 ### Organiza los resultados en orden descendente
 Utilizar el orden descendente (“descending”)
 ```
 SELECT DISTINCT Country FROM Customers SORT BY Country DESC;
 ```
+```
+SELECT DISTINCT Country FROM Customers ORDER BY Country DESC;
+```
 
+### Funcion MAX la cual nos permite obtener el valor maximo de un campo
+```
+SELECT MAX(monto) from pago;
+```
+
+### Funcion MIN la cual nos permite obtener el valor minimo de un campo
+```
+SELECT MIN(monto) from pago;
+```
+
+### Funcion SUM la cual nos permite realizar una sumatoria de varios campos
+```
+SELECT SUM(monto) from pago; 
+```
+
+### Funcion AVG la cual nos permite obtener un promedio de varios campos
+```
+SELECT AVG(monto) from pago;
+```
+
+### Funcion COUNT la cual nos permite obtener la cantidad de filas que tengo en un campo o tabla 
+```
+SELECT COUNT(monto) from pago;
+```
+
+### Funcion HAVING indica que solo desea los grupos que satisfacen la condición de dicha cláusula 
+```
+SELECT estado FROM turno GROUP BY estado HAVING estado = 2;
+```
+_______
+
+## Operadores Logicos
+
+### AND
+```
+SELECT * FROM paciente WHERE apellido='Martinez' AND nombre='Juan';
+```
+
+### OR
+```
+SELECT * FROM paciente WHERE apellido='Martinez' OR nombre='Juan';
+```
+
+### IN
+```
+SELECT * FROM paciente WHERE idpaciente IN(2,5,7)
+```
+
+### LIKE
+```
+SELECT * FROM paciente WHERE nombre LIKE '%auri%'
+```
+
+### NOT
+```
+SELECT * FROM paciente WHERE nombre NOT LIKE '%auri%'
+```
+
+### BETWEEN
+```
+SELECT * FROM pago WHERE monto BETWEEN '200' AND '3000'
+```
 _______
 
 ## Comandos SQL para unir consultas
